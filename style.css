@@ -8,7 +8,7 @@ h1{
 .Added-colore{
     color: orange;
 }
-section{
+.experieces{
     display: flex;
     margin-bottom: 100px;
 }
@@ -35,4 +35,35 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.developer{
+    color: orange;
+}
+p{
+        text-align: justify;
+}
+.ex-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experieces-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 15px 15px 40px gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    
+}
+.border{
+    border-left: 7px solid rgb(221, 79, 13);
+}
+.border-ex{
+    border-left: 7px solid blue;
+}
+footer p {
+    text-align: center;
 }
